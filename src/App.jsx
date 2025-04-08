@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
 import ReactForm from './components/ReactForm'
 
 const App = () => {
   return (
     <div>
-      <ReactForm />
+      <Routes>
+        <Route path="/form" element={<ReactForm />} />
+      </Routes>
     </div>
   )
 }
