@@ -1,12 +1,11 @@
 import React from 'react'
 import './App.css'
-import { Button } from './components/ui/button'
+import ReactForm from './components/ReactForm'
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold underline'>
-      hello
-      <Button variant='destructive'>Click here!</Button>
+    <div>
+      <ReactForm />
     </div>
   )
 }
