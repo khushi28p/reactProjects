@@ -119,7 +119,7 @@ const ReactForm = () => {
   };
 
   return (
-    <div className="w-full py-8 bg-[#212121] text-white p-4 rounded-lg">
+    <div>
       <Toaster position="top-center" reverseOrder={false} />
       <Form {...form}>
         <h1 className="flex justify-center pb-6 text-4xl font-bold">
