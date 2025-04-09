@@ -20,7 +20,7 @@ const JokesGenerator = () => {
   return (
     
         <div className='flex flex-col align-center items-center justify-center w-full h-full gap-4'>
-        <h1>Jokes Generator using React and JokeAPI</h1>
+        <h1 className="flex justify-center pb-6 text-4xl font-bold">Jokes Generator using React and JokeAPI</h1>
         <Textarea disabled type="text" placeholder="Generate a new Joke" value={joke} className='max-w-2xl' />
         <Button onClick={getJoke}>Generate</Button>
         </div>

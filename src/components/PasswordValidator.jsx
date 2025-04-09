@@ -16,9 +16,9 @@ const PasswordValidator = () => {
 
   return (
     <div className='flex flex-col align-center items-center justify-center w-full h-full gap-4'>
-      <h1>Check your password'd strength</h1>
+      <h1 className="flex justify-center pb-6 text-4xl font-bold">Check your password's strength</h1>
       <Input type="text" 
-      onChange={(e) => validate(e.target.value)} placeholder="Generate a new Joke" className='max-w-2xl' />
+      onChange={(e) => validate(e.target.value)} placeholder="Enter your password here" className='max-w-2xl' />
       {errorMessage && <p className='font-bold text-red-600'>{errorMessage}</p>}
     </div>
   )
