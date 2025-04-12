@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import ReactForm from './components/ReactForm'
 import JokesGenerator from './components/JokesGenerator'
 import PasswordValidator from './components/PasswordValidator'
-import TicTacToe from './components/TicTacToe'
+import Board from './components/TicTacToeGame/Board'
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <Route path="/form" element={<ReactForm />} />
         <Route path="/jokes" element={<JokesGenerator />} />
         <Route path='/password-validator' element={<PasswordValidator />} />
-        <Route path='/tic-tac-toe' element={<TicTacToe />} />
+        <Route path='/tic-tac-toe' element={<Board />} />
       </Routes>
     </div>
   )
