@@ -9,6 +9,7 @@ import IPAddress from './components/IPAddressFinder/IPAddress'
 import DiceRolling from './components/DiceRolling'
 import RockPaperScissor from './components/RockPaperScissor'
 import TodoList from './components/TodoList'
+import QuizApp from './components/QuizApp'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/rock-paper-scissor' element={<RockPaperScissor />} />
         <Route path='/roll-dice' element={<DiceRolling/>} />
         <Route path="/todo-list" element={<TodoList />} />
+        <Route path='/take-quiz' element={<QuizApp />} /> 
       </Routes>
     </div>
   )
