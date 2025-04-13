@@ -7,6 +7,7 @@ import PasswordValidator from './components/PasswordValidator'
 import Board from './components/TicTacToeGame/Board'
 import IPAddress from './components/IPAddressFinder/IPAddress'
 import DiceRolling from './components/DiceRolling'
+import RockPaperScissor from './components/RockPaperScissor'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/password-validator' element={<PasswordValidator />} />
         <Route path='/tic-tac-toe' element={<Board />} />
         <Route path='/find-ip-address' element={<IPAddress />} />
+        <Route path='/rock-paper-scissor' element={<RockPaperScissor />} />
         <Route path='/roll-dice' element={<DiceRolling/>} />
       </Routes>
     </div>
