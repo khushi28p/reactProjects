@@ -12,6 +12,7 @@ import TodoList from './components/TodoList'
 import QuizApp from './components/QuizApp'
 import CoinFlipping from './components/CoinFlipping'
 import LyricsFinder from './components/LyricsFinder'
+import QRCodeGenerator from './components/QRCodeGenerator'
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path='/take-quiz' element={<QuizApp />} /> 
         <Route path='/flip-coin' element={<CoinFlipping />} /> 
         <Route path='/find-lyrics' element={<LyricsFinder />} />
+        <Route path='/generate-qr-code' element={<QRCodeGenerator />} />
       </Routes>
     </div>
   )
