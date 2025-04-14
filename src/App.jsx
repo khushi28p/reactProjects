@@ -10,6 +10,7 @@ import DiceRolling from './components/DiceRolling'
 import RockPaperScissor from './components/RockPaperScissor'
 import TodoList from './components/TodoList'
 import QuizApp from './components/QuizApp'
+import CoinFlipping from './components/CoinFlipping'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/roll-dice' element={<DiceRolling/>} />
         <Route path="/todo-list" element={<TodoList />} />
         <Route path='/take-quiz' element={<QuizApp />} /> 
+        <Route path='/flip-coin' element={<CoinFlipping />} /> 
       </Routes>
     </div>
   )
