@@ -11,6 +11,7 @@ import RockPaperScissor from './components/RockPaperScissor'
 import TodoList from './components/TodoList'
 import QuizApp from './components/QuizApp'
 import CoinFlipping from './components/CoinFlipping'
+import LyricsFinder from './components/LyricsFinder'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/todo-list" element={<TodoList />} />
         <Route path='/take-quiz' element={<QuizApp />} /> 
         <Route path='/flip-coin' element={<CoinFlipping />} /> 
+        <Route path='/find-lyrics' element={<LyricsFinder />} />
       </Routes>
     </div>
   )
